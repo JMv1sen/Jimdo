@@ -1,19 +1,3 @@
---[[
- /$$$$$$$                      /$$                 /$$$$$$$$                               
-| $$__  $$                    |__/                |__  $$__/                               
-| $$  \ $$  /$$$$$$   /$$$$$$$ /$$  /$$$$$$          | $$  /$$$$$$   /$$$$$$  /$$$$$$/$$$$ 
-| $$$$$$$/ /$$__  $$ /$$_____/| $$ /$$__  $$         | $$ /$$__  $$ |____  $$| $$_  $$_  $$
-| $$__  $$| $$  \ $$|  $$$$$$ | $$| $$$$$$$$         | $$| $$$$$$$$  /$$$$$$$| $$ \ $$ \ $$
-| $$  \ $$| $$  | $$ \____  $$| $$| $$_____/         | $$| $$_____/ /$$__  $$| $$ | $$ | $$
-| $$  | $$|  $$$$$$/ /$$$$$$$/| $$|  $$$$$$$         | $$|  $$$$$$$|  $$$$$$$| $$ | $$ | $$
-|__/  |__/ \______/ |_______/ |__/ \_______/         |__/ \_______/ \_______/|__/ |__/ |__/     
-
-[+] Rosie Team Cảm Ơn Bạn Đã Tin Tưởng Và Sử Dụng Dịch Vụ Của Chúng Tôi, Nếu Thấy Hữu Ít Hãy Chia Sẻ Cho Bạn Bè Của Bạn !!
-[+] Không Được Share Hay Crack Mã Nguồn Này Cho Ai! Nếu Không Bạn Sẽ Bị Ban IP Khỏi Website Vĩnh Viễn!
-[+] Chúng Tôi Không Nhận Hỗ Trợ Những Mã Nguồn Miễn Phí, Xin Đừng Bảo Vì Sao. Tạo Ticket Hỗ Trợ Của Website Tại: https://rosieteam.net/dash/ticket
-[+] Nếu Bạn Edit Source Và Up Web Share Nhớ Obfuscate Script. Nếu Bạn Có Tiền Thì Sử Dụng: Lura.Ph, Luarmor.Net | Nếu Bạn Không Có Tiền Thì Dùng: luaobfuscate.com, MoonSec, 77Fuscate,... Nhé!
-]]
-  
 local ScreenGui1 = Instance.new("ScreenGui")
 local ImageButton1 = Instance.new("ImageButton")
 local UICorner = Instance.new("UICorner")
@@ -28,20 +12,20 @@ ImageButton1.BorderSizePixel = 0
 ImageButton1.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton1.Size = UDim2.new(0, 50, 0, 50)
 ImageButton1.Draggable = true
-ImageButton1.Image = "http://www.roblox.com/asset/?id=12523036534"
+ImageButton1.Image = "http://www.roblox.com/asset/?id=18733986534"
 ImageButton1.MouseButton1Down:connect(function()
   game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
   game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
 end)
 UICorner.Parent = ImageButton1
 
-do local GUI = game.CoreGui:FindFirstChild("SOMEXHUB");if GUI then GUI:Destroy();end;if _G.Color == nil then
+do local GUI = game.CoreGui:FindFirstChild("JIMDOHUB");if GUI then GUI:Destroy();end;if _G.Color == nil then
     _G.Color = Color3.fromRGB(0, 247, 255)
    end 
 end
 
 do
-    local NamfonHub = workspace:FindFirstChild("DeeKub")
+    local NamfonHub = workspace:FindFirstChild("jimdohub")
     if NamfonHub then
         NamfonHub:Destroy()
     end
@@ -49,7 +33,7 @@ end
 
 local Namfon = Instance.new("Part",workspace)
 Namfon.Size = Vector3.new(30,5,30)
-Namfon.Name = "DeeKub"
+Namfon.Name = "jimdohub"
 Namfon.Transparency = 1
 Namfon.CanCollide = true
 Namfon.Anchored = true
@@ -119,7 +103,7 @@ function Update:Window(text,logo,keybind)
     local yoo = string.gsub(tostring(keybind),"Enum.KeyCode.","")
     
     local SOMEXHUB = Instance.new("ScreenGui")
-    SOMEXHUB.Name = "SOMEXHUB"
+    SOMEXHUB.Name = "jimdohub"
     SOMEXHUB.Parent = game.CoreGui
     SOMEXHUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -160,20 +144,20 @@ function Update:Window(text,logo,keybind)
     Name.TextSize = 20.000
 
     local Hub = Instance.new("TextLabel")
-    Hub.Name = "Hub"
+    Hub.Name = "jimdo|Prenium Join discord "
     Hub.Parent = Top
     Hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Hub.BackgroundTransparency = 1.000
     Hub.Position = UDim2.new(0, 85, 0, 0)
     Hub.Size = UDim2.new(0, 81, 0, 27)
     Hub.Font = Enum.Font.GothamSemibold
-    Hub.Text = "        HUB"
+    Hub.Text = " Jimdo HUB"
     Hub.TextColor3 = Color3.fromRGB(0, 247, 255)   
     Hub.TextSize = 20.000
     Hub.TextXAlignment = Enum.TextXAlignment.Left
 
     local MapName = Instance.new("TextLabel")
-    MapName.Name = "MapName"
+    MapName.Name = "Blox fruit"
     MapName.Parent = Top
     MapName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     MapName.BackgroundTransparency = 1.000
@@ -186,7 +170,7 @@ function Update:Window(text,logo,keybind)
     MapName.TextXAlignment = Enum.TextXAlignment.Left
 
     local Hubb = Instance.new("TextLabel")
-    Hubb.Name = "Hubb"
+    Hubb.Name = "Jimdo hub"
     Hubb.Parent = Top
     Hubb.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Hubb.BackgroundTransparency = 1.000
@@ -213,7 +197,7 @@ local LogoHub = Instance.new("ImageLabel")
     LogoHub.BackgroundTransparency = 1.000
     LogoHub.Position = UDim2.new(0, 5, 0, 1)
     LogoHub.Size = UDim2.new(0, 26, 0, 26)
-    LogoHub.Image = "http://www.roblox.com/asset/?id="..tostring(12523036534)
+    LogoHub.Image = "http://www.roblox.com/asset/?id="..tostring(18733986534)
 
     local ScrollTab = Instance.new("ScrollingFrame")
     ScrollTab.Name = "ScrollTab"
