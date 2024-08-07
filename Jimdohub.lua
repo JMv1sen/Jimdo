@@ -144,7 +144,7 @@ function Update:Window(text,logo,keybind)
     Name.TextSize = 20.000
 
     local Hub = Instance.new("TextLabel")
-    Hub.Name = "jimdo|Prenium Join discord "
+    Hub.Name = "jimdo|Prenium Join discord https://discord.com/invite/GmzyvPnv"
     Hub.Parent = Top
     Hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Hub.BackgroundTransparency = 1.000
@@ -157,14 +157,14 @@ function Update:Window(text,logo,keybind)
     Hub.TextXAlignment = Enum.TextXAlignment.Left
 
     local MapName = Instance.new("TextLabel")
-    MapName.Name = "Blox fruit"
+    MapName.Name = "Prenium"
     MapName.Parent = Top
     MapName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     MapName.BackgroundTransparency = 1.000
     MapName.Position = UDim2.new(0, 85, 0, 0)
     MapName.Size = UDim2.new(0, 81, 0, 27)
     MapName.Font = Enum.Font.GothamSemibold
-    MapName.Text = "                | BLOX FRUIT"
+    MapName.Text = "                | Prenium"
     MapName.TextColor3 = Color3.fromRGB(225, 225, 225)   
     MapName.TextSize = 20.000
     MapName.TextXAlignment = Enum.TextXAlignment.Left
